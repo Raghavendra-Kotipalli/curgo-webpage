@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DashBoard Profile</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <style type="text/css">
+    .headerDiv{
+      background-color: #5175DA;
+    }
+    .style1{
+      color: white;
+      font-size: 25px;
+      line-height: 3;
+      font-weight: 700;
+    }
+
+    .style2{
+      color: white;
+      font-size: 16px;
+      line-height: 5;
+      font-weight: 500;
+    }
+
+    .selectedBtn{
+      color: #5175DA;
+      font-size: 16px;
+      margin-top: 20px;
+      font-weight: 500;
+      background-color: white;
+      border: 2px solid;
+      border-radius: 30px;
+      width: 150px;
+      height: 50px;
+    }
+
+    .disabledBtn{
+      color: white;
+      font-size: 16px;
+      margin-top: 20px;
+      font-weight: 500;
+      background-color: #5175DA;
+      border: 2px solid;
+      border-radius: 30px;
+      width: 150px;
+      height: 50px;
+    }
+
+    .headerText{
+      font-size: 30px;
+      color: white;
+      padding-top: 160px;
+    }
+
+    .headerImg{
+      float: right;
+      width: 450px;
+      height: 450px;
+    }
+  </style>
+</head>
+<body>
+  
+<div class="container headerDiv">
+  <div class="row">
+    <div class="col-sm-3">
+      <!--Home page Logo page -->
+      <div>
+        <span class="style1" style="padding-left: 100px;">Curgo</span>
+      </div>
+    </div> 
+    <div class="col-sm-9">
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="style2">Features</span>
+        </div>
+        <div class="col-sm-3">
+          <span class="style2">Pricing</span>
+        </div>
+        <div class="col-sm-3">
+          <span class="style2">How to Login</span>
+        </div>
+        <div class="col-sm-3">
+          <button type="button" class="btn btn-primary selectedBtn">Register</button>
+        </div>
+      </div>
+      </div>
+    </div> 
+
+    <!-- Header elements -->
+    <div class="row" style="height:600px;">
+      <div class="col-sm-6" style="padding: 150px 10px 0px 100px;">
+          <div>
+            <span class="headerText"> An All in one productivity platform made for teams that want to get things done.</span>
+          </div>
+          <div>
+            <button type="button" style="margin-right: 30px;" class="btn btn-primary selectedBtn">SINGUP NOW</button>
+            <button type="button" class="btn btn-primary disabledBtn">BOOK DEMO</button>
+          </div>
+      </div>
+      <div class="col-sm-6">
+          <!--Header image -->
+          <img src="header.PNG" class="headerImg" />
+      </div>
+    </div> 
+  </div>
+</div>
+
+</body>
+</html>
